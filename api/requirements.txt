@@ -1,0 +1,8 @@
+django<1.8
+django-cors-headers
+djangorestframework<3.3.3
+drf-extensions
+djangorestframework-jwt
+psycopg2
+drf-nested-routers
+pyenchant
