@@ -21,6 +21,7 @@ from common.viewsets import *
 router = routers.DefaultRouter()
 router.register(r'accounts', ProfileViewSet)
 router.register(r'bookmarks', BookmarkViewSet)
+router.register(r'users', UserViewSet)
 
 
 urlpatterns = [

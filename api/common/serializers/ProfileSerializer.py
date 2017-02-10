@@ -6,4 +6,4 @@ from common.models import Profile
 class ProfileSerializer(serializers.ModelSerializer):
     class Meta:
         model = Profile
-        fields = ["user"]
+        fields = ["id", "user"]
